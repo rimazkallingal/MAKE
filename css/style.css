@@ -509,12 +509,25 @@ nav .fas {
   border-bottom: 2px solid var(--white);
   padding-bottom: 3px;
 }
-.footer-card ul li {
+.footer-card ul li,
+.footer-card ul li a {
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
   font-family: Barlow-Regular;
 }
+.footer-card ul li a {
+  color: var(--white);
+}
+.footer-card ul li a:hover {
+  background: linear-gradient(96.24deg, #ef9746 -25.67%, #ca4bdf 127.23%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-emphasis-color: transparent;
+  width: fit-content;
+}
+.third ul li a,
 .third ul li {
   display: flex;
 }
@@ -575,6 +588,9 @@ nav .fas {
     font-size: 15px;
     line-height: 15px;
     padding: 5px 0px;
+  }
+  .cards {
+    width: 100%;
   }
   .footer-card ul li {
     font-size: 15px;
