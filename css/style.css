@@ -535,6 +535,67 @@ nav .fas {
   line-height: 24px;
 }
 /* responsive-css */
+@media only screen and (max-width: 320px) {
+  .banner-text p {
+    font-size: 18px;
+  }
+  h1 {
+    font-size: 28px;
+    line-height: 35px;
+  }
+  h2 {
+    font-size: 23px;
+    line-height: 23px;
+  }
+  h3 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  h4 {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  h5 {
+    font-size: 15px;
+    line-height: 15px;
+  }
+  p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .row {
+    row-gap: 15px;
+  }
+  .materials-name {
+    font-size: 10px;
+    line-height: 15px;
+    padding: 3px 0px;
+  }
+  .experts-name {
+    font-size: 15px;
+    line-height: 15px;
+    padding: 5px 0px;
+  }
+  .footer-card ul li {
+    font-size: 15px;
+  }
+  .capabilities-section,
+  .experts-section,
+  .manufacture-section,
+  .subscribe-section,
+  .footer-section {
+    padding: 20px 0px;
+  }
+  .materials-section {
+    padding-top: 20px;
+  }
+  .banner-section {
+    padding-bottom: 30px;
+  }
+  .navbar.active ul#side-menu {
+    width: 200px !important;
+  }
+}
 @media only screen and (max-width: 767px) {
   .container {
     padding: 0px 15px;
